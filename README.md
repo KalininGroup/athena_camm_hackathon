@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="camm_hackathon/assets/claude.png" width="560"/>
+<img src="assets/claude.png" width="560"/>
 
 <br>
 
@@ -22,44 +22,45 @@
 
 <table>
 <tr>
+
 <td align="center">
 <img src="assets/AFM.png" width="180"/><br>
 <b>AFM</b><br>
 <sub>tiny tip. big attitude.</sub>
 </td>
+
 <td align="center">
 <img src="assets/STEM.png" width="180"/><br>
 <b>Electron Microscopy</b><br>
 <sub>zoom in until things get serious.</sub>
 </td>
+
 <td align="center">
 <img src="assets/XRD.png" width="180"/><br>
 <b>XRD</b><br>
 <sub>for when vibes are not enough.</sub>
 </td>
-</tr>
-<tr>
-<td align="center">
-<img src="assets/indentor.png" width="180"/><br>
-<b>Nanoindentation</b><br>
-<sub>poke it professionally.</sub>
-</td>
-<td align="center">
-<img src="assets/claude.png" width="180"/><br>
-<b>Cloud Control</b><br>
-<sub>one brain. many buttons.</sub>
-</td>
-<td align="center">
-<img src="assets/PLD.png" width="180"/><br>
-<b>PLD</b><br>
-<sub>lasers make everything cooler.</sub>
-</td>
+
 </tr>
 </table>
 
-<br>
+<table>
+<tr>
 
-<img src="assets/camm_lego.png" width="760"/>
+<td align="center">
+<img src="assets/indentor.png" width="210"/><br>
+<b>Nanoindentation</b><br>
+<sub>poke it professionally.</sub>
+</td>
+
+<td align="center">
+<img src="assets/PLD.png" width="210"/><br>
+<b>PLD</b><br>
+<sub>lasers make everything cooler.</sub>
+</td>
+
+</tr>
+</table>
 
 <br>
 
