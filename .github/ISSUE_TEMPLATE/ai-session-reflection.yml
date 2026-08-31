@@ -1,6 +1,6 @@
 name: 🤖 AI Hackathon Session Reflection
 description: Complete this reflection after each weekly hackathon session.
-labels: ["hackathon-reflection"]
+title: "AI Hackathon Reflection"
 
 body:
   - type: markdown
