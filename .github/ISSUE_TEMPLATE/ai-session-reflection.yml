@@ -24,14 +24,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: date
-    attributes:
-      label: Date
-      placeholder: "YYYY-MM-DD"
-    validations:
-      required: true
-
   - type: textarea
     id: q1
     attributes:
@@ -122,13 +114,3 @@ body:
       placeholder: "https://github.com/..."
     validations:
       required: false
-
-  - type: checkboxes
-    id: understanding
-    attributes:
-      label: Final Check
-      options:
-        - label: I can explain the code I submitted.
-          required: true
-        - label: I tested my result rather than assuming the AI was correct.
-          required: true
