@@ -1,0 +1,134 @@
+name: 🤖 AI Hackathon Session Reflection
+description: Complete this reflection after each weekly hackathon session.
+title: "[Hackathon Reflection] "
+labels: ["hackathon-reflection"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # AI Hackathon Reflection
+
+        **You are allowed to use AI to write code.**
+
+        **You must be able to explain, test, and defend what your code does.**
+
+        Complete this reflection at the end of each session.
+
+  - type: input
+    id: session
+    attributes:
+      label: Session
+      description: Enter the week/session number and topic.
+      placeholder: "Week 01 — Python Basics"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: textarea
+    id: q1
+    attributes:
+      label: 1. What did you ask the AI to do?
+      placeholder: Describe your prompt or goal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: q2
+    attributes:
+      label: 2. Why did you choose that prompt or approach?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q3
+    attributes:
+      label: 3. What code did the AI generate?
+      description: Summarize the important parts. You may also include a link to your notebook or code.
+    validations:
+      required: true
+
+  - type: textarea
+    id: q4
+    attributes:
+      label: 4. Can you explain what each important part of the code does?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q5
+    attributes:
+      label: 5. What did you change from the AI-generated version?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q6
+    attributes:
+      label: 6. Why did you make those changes?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q7
+    attributes:
+      label: 7. How did you test that the code actually works?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q8
+    attributes:
+      label: 8. How did you check that the result makes scientific sense?
+      description: Think about the materials science, physics, or experimental meaning of the result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: q9
+    attributes:
+      label: 9. What assumptions or limitations does the code have?
+    validations:
+      required: true
+
+  - type: textarea
+    id: q10
+    attributes:
+      label: 10. If the AI were wrong, how would you know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: takeaway
+    attributes:
+      label: 💡 Main takeaway
+      description: What is the most important thing you learned today?
+      placeholder: "Today I learned..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: 🔗 Code / Notebook
+      description: Link to your notebook, branch, commit, or file from today's session.
+      placeholder: "https://github.com/..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: understanding
+    attributes:
+      label: Final Check
+      options:
+        - label: I can explain the code I submitted.
+          required: true
+        - label: I tested my result rather than assuming the AI was correct.
+          required: true
